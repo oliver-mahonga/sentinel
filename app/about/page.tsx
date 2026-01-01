@@ -7,7 +7,7 @@ export default function Page() {
         Sentinel Systems is led by Oliver — a systems thinker focused on fixing broken digital operations,
         automating communication, and helping businesses scale intelligently.
       </p>
-      <i className="text-black ">contact us anytime for any customer service</i>
+      <i className="text-white  ">contact us anytime for any customer service</i>
     </section>
   );
 }
