@@ -174,8 +174,8 @@ export default function Page() {
 
             <ContactCard
               title="WhatsApp"
-              value="+254 463 787 72"
-              href="https://wa.me/25446378772"
+              value="+254 746 378 772"
+              href="https://wa.me/254746378772"
               icon={MessageCircle}
               description="Quick follow-ups & confirmations"
             />

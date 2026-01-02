@@ -40,22 +40,23 @@ export default function Navbar() {
         {/* Mobile Hamburger */}
         <button
           className="md:hidden text-white"
+          
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
-          {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" /> }
         </button>
       </div>
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-black bg-opacity-90 backdrop-blur-md">
+        <div className="md:hidden bg-black bg-opacity-90 backdrop-blur-md text-align-right">
           <div className="flex flex-col py-4 space-y-2 text-white font-medium">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className="flex items-center gap-3 px-6 py-2 hover:text-red-600 transition-colors duration-300"
+                className="flex items-center gap-3 px-6 py-2 hover:text-red-600 transition-colors duration-300 "
               >
                 <link.icon className="w-5 h-5 text-red-600" />
                 <span>{link.name}</span>
