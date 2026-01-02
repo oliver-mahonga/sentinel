@@ -39,10 +39,11 @@ export default function HeroSection() {
         </p>
 
         {/* CTA Button */}
+        
         <CTAButton
           text="Request Free Audit"
           link="/contact"
-          className="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 inline-block"
+          
         />
       </div>
     </section>
