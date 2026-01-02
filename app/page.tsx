@@ -39,19 +39,19 @@ export default function Page() {
           <ProjectCard
             title="Landing Page UX Optimization"
             description="Improved layout, mobile responsiveness, and CTA visibility."
-            image="/assets/images/project1.png"
+            image="/assets/images/logo.png"
             link="https://github.com/yourusername/project1"
           />
           <ProjectCard
             title="WhatsApp AI Automation Demo"
             description="Automated customer replies and lead handling."
-            image="/assets/images/project2.png"
+            image="/assets/images/logo.png"
             link="https://github.com/yourusername/project2"
           />
           <ProjectCard
             title="Email Auto-Responder System"
             description="Implemented automated replies and lead follow-ups."
-            image="/assets/images/project3.png"
+            image="/assets/images/logo.png"
             link="https://github.com/yourusername/project3"
           />
         </div>

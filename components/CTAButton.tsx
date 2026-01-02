@@ -8,7 +8,7 @@ interface CTAButtonProps {
 export default function CTAButton({ text, link }: CTAButtonProps) {
   return (
     <Link href={link}>
-      <button className="px-6 py-3 bg-orange-600 hover:bg-orange-700 text-white rounded-lg font-semibold transition-all duration-300 shadow-lg">
+      <button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 inline-block">
         {text}
       </button>
     </Link>
