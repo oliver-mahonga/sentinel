@@ -45,14 +45,14 @@ export default function Page() {
           <ProjectCard
             title="WhatsApp AI Automation Demo"
             description="Automated customer replies and lead handling."
-            image="/assets/images/logo.png"
-            link="https://github.com/oliver-mahonga"
+            image="/assets/images/farm.png"
+            link="https://github.com/oliver-mahonga/sentinel"
           />
           <ProjectCard
             title="Email Auto-Responder System"
             description="Implemented automated replies and lead follow-ups."
-            image="/assets/images/logo.png"
-            link="https://github.com/oliver-mahonga"
+            image="/assets/images/sav.png"
+            link="https://github.com/oliver-mahonga/shadowrace"
           />
         </div>
         <div className="text-center mt-10">
