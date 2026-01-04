@@ -84,7 +84,7 @@ export default function Page() {
 
                 <h3 className="text-2xl font-bold mb-2">Message Sent</h3>
                 <p className="text-gray-400 max-w-sm">
-                  Thanks for reaching out. I’ve received your message and will
+                  Thanks for reaching out. We have received your message and will
                   respond shortly.
                 </p>
 
@@ -111,11 +111,11 @@ export default function Page() {
               </h2>
 
               <form onSubmit={handleSubmit} className="space-y-5">
-                <Input name="name" placeholder="Your Name" required />
+                <Input name="name" placeholder="Your Name *" required />
                 <Input
                   name="email"
                   type="email"
-                  placeholder="Email Address"
+                  placeholder="Email Address *"
                   required
                 />
                 <Input

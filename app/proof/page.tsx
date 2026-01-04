@@ -112,7 +112,7 @@ export default function Page() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <Testimonial
-              quote="He didn’t just fix the issue — he redesigned the entire system so it couldn’t break again."
+              quote="They didn’t just fix the issue — They redesigned the entire system so it couldn’t break again."
               role="Founder, SaaS Startup"
             />
 
@@ -122,7 +122,7 @@ export default function Page() {
             />
 
             <Testimonial
-              quote="Very few people think in systems. He does — quietly and effectively."
+              quote="Very few people think in systems. They do — quietly and effectively."
               role="CTO, Private Client"
             />
           </div>
@@ -131,7 +131,7 @@ export default function Page() {
         {/* CONVERSION SECTION */}
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-2xl font-bold mb-4">
-            If You See the Problem — I Can Fix It
+            If You See the Problem — We Fix It
           </h2>
           <p className="text-gray-400 mb-8">
             If your business is leaking time, money, or attention, that’s a
