@@ -40,19 +40,21 @@ export default function Page() {
             title="Landing Page UX Optimization"
             description="Improved layout, mobile responsiveness, and CTA visibility."
             image="/assets/images/Landing Page.png"
-            link="https://github.com/oliver-mahonga"
+            link="https://github.com/oliver-mahonga/market"
           />
+          
           <ProjectCard
             title="WhatsApp AI Automation Demo"
             description="Automated customer replies and lead handling."
             image="/assets/images/farm.png"
-            link="https://github.com/oliver-mahonga/sentinel"
+            link="https://github.com/oliver-mahonga/agriculture"
           />
+          
           <ProjectCard
             title="Email Auto-Responder System"
             description="Implemented automated replies and lead follow-ups."
             image="/assets/images/sav.png"
-            link="https://github.com/oliver-mahonga/shadowrace"
+            link="https://github.com/oliver-mahonga/shadowtrace"
           />
         </div>
         <div className="text-center mt-10">

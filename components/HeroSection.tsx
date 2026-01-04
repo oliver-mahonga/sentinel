@@ -19,7 +19,7 @@ export default function HeroSection() {
         className="absolute inset-0 w-full h-full object-cover brightness-50 blur-sm"
         alt="Hero Background"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/60" />
 
       {/* Hero Content */}
       <div className="relative z-10 text-center max-w-3xl px-6">
