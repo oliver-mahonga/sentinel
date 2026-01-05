@@ -4,10 +4,13 @@ import ProjectCard from "../components/ProjectCard";
 import AboutSection from "../components/AboutSection";
 import CTAButton from "../components/CTAButton";
 
+
+
 export default function Page() {
   return (
     <>
       <HeroSection />
+     
 
       {/* Services Teaser */}
       <section className="max-w-6xl mx-auto px-6 py-20">
