@@ -9,6 +9,8 @@ import {
   Copy,
   Check,
   MapPin,
+  Linkedin,
+  Link
 } from "lucide-react";
 
 import { Input } from "@/components/ui/input";
@@ -170,6 +172,14 @@ export default function Page() {
               href="https://github.com/oliver-mahonga"
               icon={Github}
               description="View real systems & code"
+            />
+
+            <ContactCard
+              title="LinkedIn"
+              value="connect@linkedin"
+              href="https://www.linkedin.com/in/oliver-mahonga-147242295/"
+              icon={Linkedin}
+              description="connect@linkedin"
             />
 
             <ContactCard
