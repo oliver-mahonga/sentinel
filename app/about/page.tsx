@@ -53,7 +53,7 @@ export default function Page() {
             About Sentinel Systems
           </h2>
           <p className="text-gray-400 leading-relaxed mb-8">
-            At Sentinel Systems, we specialize in transforming digital operations for businesses of all sizes. We improve websites, automate communications, and streamline workflows using advanced AI and smart systems. Our solutions don’t just look good — they solve real inefficiencies, boost conversions, and save time, enabling companies to operate smarter and grow faster.
+            At Sentinel Systems, we specialize in transforming digital operations for businesses and organizations of all sizes. We improve websites, automate communications, and streamline workflows using advanced AI and smart systems. Our solutions don’t just look good — they solve real inefficiencies, boost conversions, and save time, enabling companies to operate smarter and grow faster.
           </p>
 
           {/* HIGHLIGHTS */}
